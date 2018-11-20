@@ -1,0 +1,111 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(font.otf);
+}
+
+body {
+	background-image:url("b.jpg");
+	background-size: cover;
+}
+
+table {
+	border: 1px solid black;
+    width: 100%;
+    
+}
+
+th, td {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: myFirstFont;
+    font-size: 50px;
+    color: black;
+}
+
+a, p.nearButton {
+    font-family: myFirstFont;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+
+button {
+	background-color: white;
+	color: black;
+	border: solid 1px;
+	border-color: black;
+	
+	transition-duration: 0.4s;
+	border-radius: 3px;
+	
+	opacity: 0.5;
+	
+	width: 150px;
+	height: 50px;
+	capacity: 0.5px;
+	
+}
+
+button:hover {
+	background-color: white;
+	color: black;
+	border: solid 1px;
+	border-color: black;
+	
+	opacity: 1.0;
+}
+
+
+input[type=submit] {
+	background-color: white;
+	color: black;
+	border: solid 1px;
+	border-color: black;
+	
+	transition-duration: 0.4s;
+	border-radius: 3px;
+	
+	opacity: 0.5;
+	
+	width: 150px;
+	height: 50px;
+	capacity: 0.5px;
+	
+}
+
+input[type=submit]:hover {
+	background-color: white;
+	color: black;
+	border: solid 1px;
+	border-color: black;
+	
+	opacity: 1.0;
+}
+
+input[type=text], input[type=password] {
+    width: 200px;
+    padding: 12px 10px;
+    margin: 3px 0;
+    opacity: 0.5;
+    border: solid 1px;
+    capacity: 0.5px;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+ 
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: white;
+    border-radius: 3px;
+    opacity: 1.0;
+}
+
+input[type=text]:hover, input[type=password]:hover {
+    background-color: white;
+    border-radius: 3px;
+    opacity: 1.0;
+}
